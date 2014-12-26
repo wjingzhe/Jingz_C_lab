@@ -63,7 +63,7 @@ void DispHeap(int a[],int m,int n)//阶梯式显示
 int* InsertNode(int a[],int &n,int elem)//插入新结点，重新排序
 {
 	n++;
-	int* b = new int[n]();
+	int* b = new int[n]();//请原谅，我以前没有遵循内存“谁申请，谁清理”的规范
 	b[0] = n;
 	for(int count = 0;count<n-1;count++)
 	{
