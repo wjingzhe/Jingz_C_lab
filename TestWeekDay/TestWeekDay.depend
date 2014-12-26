@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1357475511 source:d:\c_lab\testweekday\main.c
+	<stdio.h>
+	<math.h>
+

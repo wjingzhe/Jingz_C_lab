@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jobFcfs - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/jobFcfs.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/jobFcfs.pdb" /debug /machine:I386 /out:"Debug/jobFcfs.exe" /pdbtype:sept 
+.\Debug\jobFcfs.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB.tmp"
+<h3>Output Window</h3>
+Compiling...
+jobFcfs.c
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(25) : error C2143: syntax error : missing ';' before 'type'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(26) : error C2065: 'filename' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(27) : error C2065: 'job' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(27) : error C2146: syntax error : missing ';' before identifier 'work'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(27) : error C2065: 'work' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(31) : error C2065: 'chEnter' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(38) : warning C4013: 'insert' undefined; assuming extern returning int
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(46) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(46) : warning C4024: 'fopen' : different types for formal and actual parameter 1
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(49) : error C2198: 'exit' : too few actual parameters
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(52) : error C2065: 'p' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(52) : warning C4022: 'fwrite' : pointer mismatch for actual parameter 1
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(52) : error C2065: 'pcb' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(60) : error C2146: syntax error : missing ';' before identifier 'i'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(60) : error C2065: 'i' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(62) : error C2065: 'fp1' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(62) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(62) : warning C4024: 'fopen' : different types for formal and actual parameter 1
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(62) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct _iobuf *'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(62) : warning C4047: '==' : 'int ' differs in levels of indirection from 'void *'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(65) : error C2198: 'exit' : too few actual parameters
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(68) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(68) : warning C4024: 'fseek' : different types for formal and actual parameter 1
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(69) : error C2065: 'jcb' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(69) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(69) : warning C4024: 'fread' : different types for formal and actual parameter 4
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(75) : error C2065: 'fp' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(75) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(75) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(83) : error C2223: left of '->name' must point to struct/union
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(84) : error C2065: 'pr' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(84) : warning C4003: not enough actual parameters for macro 'getjob'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(84) : error C2059: syntax error : ')'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(85) : warning C4047: 'function' : 'struct job *' differs in levels of indirection from 'int '
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(85) : warning C4024: 'jDisp' : different types for formal and actual parameter 1
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(86) : error C2018: unknown character '0xa3'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(86) : error C2018: unknown character '0xbb'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(87) : error C2143: syntax error : missing ';' before '}'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(92) : error C2223: left of '->name' must point to struct/union
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(107) : error C2027: use of undefined type 'pcb'
+        D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(102) : see declaration of 'pcb'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(107) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct pcb *'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(108) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct job *'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(110) : error C2059: syntax error : '}'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(127) : error C2223: left of '->name' must point to struct/union
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(128) : warning C4013: 'disp' undefined; assuming extern returning int
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(130) : error C2059: syntax error : '}'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(141) : warning C4013: 'destroy' undefined; assuming extern returning int
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(142) : error C2065: 'k' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(143) : error C2143: syntax error : missing ';' before '}'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(150) : error C2065: 'ready' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(150) : warning C4047: '!=' : 'int ' differs in levels of indirection from 'void *'
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(152) : error C2065: 'h' : undeclared identifier
+D:\C_LAB\PRATISE\jobFcfs\jobFcfs.c(155) : error C2146: syntax error : missing ';' before identifier 'check'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+jobFcfs.exe - 31 error(s), 22 warning(s)
+</pre>
+</body>
+</html>

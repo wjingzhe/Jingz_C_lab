@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BBTree - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\jz\AppData\Local\Temp\RSP7062.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/BBTree.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C_lab\BBTree\BBTree.cpp"
+]
+Creating command line "cl.exe @C:\Users\jz\AppData\Local\Temp\RSP7062.tmp" 
+<h3>Output Window</h3>
+Compiling...
+BBTree.cpp
+D:\C_lab\BBTree\BBTree.cpp(54) : warning C4715: 'InsertAVL' : not all control paths return a value
+
+
+
+<h3>Results</h3>
+BBTree.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

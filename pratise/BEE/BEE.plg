@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BEE - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/BEE.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\C_lab\pratise\BEE\BEE.C"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC5.tmp" 
+<h3>Output Window</h3>
+Compiling...
+BEE.C
+D:\C_lab\pratise\BEE\BEE.C(17) : error C2143: syntax error : missing ';' before 'type'
+D:\C_lab\pratise\BEE\BEE.C(18) : error C2065: 'p' : undeclared identifier
+D:\C_lab\pratise\BEE\BEE.C(18) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(19) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(19) : error C2106: '=' : left operand must be l-value
+D:\C_lab\pratise\BEE\BEE.C(23) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(23) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(23) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(25) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(25) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(26) : error C2100: illegal indirection
+D:\C_lab\pratise\BEE\BEE.C(26) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+D:\C_lab\pratise\BEE\BEE.C(26) : warning C4024: 'printf' : different types for formal and actual parameter 1
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+BEE.OBJ - 11 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
